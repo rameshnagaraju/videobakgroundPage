@@ -1,0 +1,35 @@
+
+
+#vid-bg {
+    position: relative;
+}
+
+#vid-bg video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background-position: absolute;
+    z-index: 10;
+  
+}
+
+#vid-bg .content {
+    background: rgba(0,0,0, 0.5);
+    height: 100%;
+    width:100%;
+    z-index: 20;
+    position: absolute;
+    top:0;
+    left:0;
+    
+}
+
+#vid-bg .content h1 {
+    color: black;
+    font-weight: 600;
+}
+
+#vid-bg .content h3 {
+    color: black;
+    font-weight: 300;
+}
